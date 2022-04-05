@@ -1,0 +1,218 @@
+@font-face{
+    font-family: 'Harry';
+    src: url(fonts/WizardWorldSimplified-Kxr7.ttf);
+}
+
+@font-face{
+    font-family: 'Casas';
+    src: url(fonts/parry-hotter.regular.ttf);
+}
+
+@media (max-width: 400px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .casas{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        align-content: space-between;
+        padding-top: 3%;
+    }
+}
+
+body{
+    background-image: url("imagens/background2.jpeg");
+    background-size: cover;
+    max-height: 100%;
+    font-size: 20px;
+}
+
+.mae {
+    background-color: rgba(187, 187, 187, 0.199);
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+}
+
+.menu{
+    padding: 1%;
+    text-align: center;
+    box-shadow: 2px 2px 8px black;
+    background-color: rgba(190, 186, 186, 0.199);
+    font-family: "Harry";
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu--option{
+    transition: 0.3s ease;
+    border-top: 4px solid rgba(187, 187, 187, 0.199);
+    border-bottom: 4px solid rgba(187, 187, 187, 0.199);
+    padding: 1% 0;
+    margin: 0px 2%;
+    text-shadow: 2px 2px black;
+    font-size: 1.2em;
+}
+
+.menu--option:hover{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 0.4% 0;
+    background-color: rgb(14, 94, 7);
+}
+
+#conteudo{
+    margin-top: 2%;
+    padding: 30px;
+}
+
+.casas {
+    display: flex;
+    margin-top: 2%;
+    align-content: space-between;
+    padding-top: 3%;
+}
+
+.casas-logo{
+    height: 200px;
+    max-width: 200px;
+
+}
+
+.casas img {
+    width: 200px;
+    height: 230px;
+}
+
+.casas-conteudo{
+    margin: auto;
+    text-align: center;
+}
+
+.casas-nome{
+    font-family: "Casas";
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 2px 2px black;
+}
+
+/*Estilo da Pagina formulario */
+
+#pf-conteudo{
+    display: flex;
+    color: white;
+    font-family: "Harry";
+    margin-top: 20px;
+}
+
+.form{
+    text-shadow: 2px 2px black;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.form input[type="text"] {
+    line-height: 30px;
+    width: 300px;
+    margin: 10px;
+  
+}
+
+.form label{
+    margin: 10px;
+}
+
+.input-opcoes{
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+}
+
+.botao{
+    padding: 5px 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Harry";
+    box-shadow: 2px 2px black;
+}
+
+.output{
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    text-shadow: 2px 2px black;
+}
+
+.input-text{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+#conteudo-jk {
+    background-color: rgba(187, 187, 187, 0.199);
+    display: flex;
+}
+
+#fotos img{
+    width: 250px;
+    padding: 30px;
+}
+
+#fotos p {
+    font-family: 'Houses';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: 'WizardWorld';
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
+
+#bio-jk {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-justify: inter-word;
+    padding: 20px;
+}
+
+.emblema img {
+    max-width: 300px;
+    padding: 30px;
+}
+
+.conteudo-texto {
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.frase-casa{
+    align-self: center;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
